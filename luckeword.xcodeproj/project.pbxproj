@@ -13,6 +13,8 @@
 		BF91151825FE57CB00562E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF91151625FE57CB00562E1B /* Main.storyboard */; };
 		BF91151A25FE57CD00562E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF91151925FE57CD00562E1B /* Assets.xcassets */; };
 		BF91151D25FE57CD00562E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF91151B25FE57CD00562E1B /* LaunchScreen.storyboard */; };
+		BFB1BBC726021DE2005D241A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB1BBC626021DE2005D241A /* Colors.xcassets */; };
+		BFECAC7B26022EFB002C862F /* LuckBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECAC7A26022EFB002C862F /* LuckBlock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BF91151925FE57CD00562E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF91151C25FE57CD00562E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF91151E25FE57CD00562E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB1BBC626021DE2005D241A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		BFECAC7A26022EFB002C862F /* LuckBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckBlock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				BF91151225FE57CB00562E1B /* SceneDelegate.swift */,
 				BF91151425FE57CB00562E1B /* ViewController.swift */,
 				BF91151625FE57CB00562E1B /* Main.storyboard */,
+				BFB1BBC626021DE2005D241A /* Colors.xcassets */,
 				BF91151925FE57CD00562E1B /* Assets.xcassets */,
 				BF91151B25FE57CD00562E1B /* LaunchScreen.storyboard */,
 				BF91151E25FE57CD00562E1B /* Info.plist */,
+				BFECAC7A26022EFB002C862F /* LuckBlock.swift */,
 			);
 			path = luckeword;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF91151D25FE57CD00562E1B /* LaunchScreen.storyboard in Resources */,
+				BFB1BBC726021DE2005D241A /* Colors.xcassets in Resources */,
 				BF91151A25FE57CD00562E1B /* Assets.xcassets in Resources */,
 				BF91151825FE57CB00562E1B /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFECAC7B26022EFB002C862F /* LuckBlock.swift in Sources */,
 				BF91151525FE57CB00562E1B /* ViewController.swift in Sources */,
 				BF91151125FE57CB00562E1B /* AppDelegate.swift in Sources */,
 				BF91151325FE57CB00562E1B /* SceneDelegate.swift in Sources */,
