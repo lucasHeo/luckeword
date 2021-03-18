@@ -22,9 +22,13 @@ class ViewController: UIViewController {
     }
     let colorName: UIColor = UIColor.white
     
+    @IBOutlet weak var menuLabel: UILabel!
+    let menu: String = ""
+    
     @IBOutlet weak var scoreDateLabel: UILabel!
     @IBOutlet weak var keywordDateLabel: UILabel!
     @IBOutlet weak var colorDateLabel: UILabel!
+    @IBOutlet weak var menuDateLabel: UILabel!
     
     @IBOutlet weak var versionLabel: UILabel!
     
@@ -33,7 +37,8 @@ class ViewController: UIViewController {
         
         scoreLabel.text = "100"
         keywordLabel.text = "행복"
-        colorView.layer.backgroundColor = UIColor.black.cgColor
+        colorView.layer.backgroundColor = UIColor.green.cgColor
+        menuLabel.text = "맛있는 요리"
     }
 
 
