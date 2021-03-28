@@ -41,14 +41,25 @@ class ViewController: UIViewController {
         menuLabel.text = "맛있는 요리"
     }
     
-    ///changeScoreLabel
+    /// change Score Label
     func changeScoreLabel() {
         score = Int.random(in: 2...10) * 10
         scoreLabel.text = String(score)
     }
+    
+    /// change Keyword Label
+    func changeKeywordLabel() {
+        let keywordArray = ["때로는 한순간의 결정이 인생을 바꾼다.",
+                           "최선을 다한 사람은 결코 후회하지 않는다.",
+                           "이미 가진 것에 감사할 줄 알아야 행복이 온다."]
+        print(keywordArray.count)
+        let randNum = Int.random(in: 0..<keywordArray.count)
+        keywordLabel.text = keywordArray[randNum]
+    }
 
     @IBAction func pressReloadButton(_ sender: Any) {
         changeScoreLabel()
+        changeKeywordLabel()
     }
 }
 

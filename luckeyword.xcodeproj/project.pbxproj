@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF91150D25FE57CB00562E1B /* luckeword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luckeword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF91150D25FE57CB00562E1B /* luckeyword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luckeyword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF91151025FE57CB00562E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF91151225FE57CB00562E1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF91151425FE57CB00562E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		BF91150425FE57CB00562E1B = {
 			isa = PBXGroup;
 			children = (
-				BF91150F25FE57CB00562E1B /* luckeword */,
+				BF91150F25FE57CB00562E1B /* luckeyword */,
 				BF91150E25FE57CB00562E1B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		BF91150E25FE57CB00562E1B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF91150D25FE57CB00562E1B /* luckeword.app */,
+				BF91150D25FE57CB00562E1B /* luckeyword.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF91150F25FE57CB00562E1B /* luckeword */ = {
+		BF91150F25FE57CB00562E1B /* luckeyword */ = {
 			isa = PBXGroup;
 			children = (
 				BF91151025FE57CB00562E1B /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				BF91151E25FE57CD00562E1B /* Info.plist */,
 				BFECAC7A26022EFB002C862F /* LuckBlock.swift */,
 			);
-			path = luckeword;
+			path = luckeyword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF91150C25FE57CB00562E1B /* luckeword */ = {
+		BF91150C25FE57CB00562E1B /* luckeyword */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF91152125FE57CD00562E1B /* Build configuration list for PBXNativeTarget "luckeword" */;
+			buildConfigurationList = BF91152125FE57CD00562E1B /* Build configuration list for PBXNativeTarget "luckeyword" */;
 			buildPhases = (
 				BF91150925FE57CB00562E1B /* Sources */,
 				BF91150A25FE57CB00562E1B /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = luckeword;
+			name = luckeyword;
 			productName = luckeword;
-			productReference = BF91150D25FE57CB00562E1B /* luckeword.app */;
+			productReference = BF91150D25FE57CB00562E1B /* luckeyword.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF91150825FE57CB00562E1B /* Build configuration list for PBXProject "luckeword" */;
+			buildConfigurationList = BF91150825FE57CB00562E1B /* Build configuration list for PBXProject "luckeyword" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF91150C25FE57CB00562E1B /* luckeword */,
+				BF91150C25FE57CB00562E1B /* luckeyword */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +301,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.seongjin.luckeword;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seongjin.luckeyword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +321,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.seongjin.luckeword;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seongjin.luckeyword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF91150825FE57CB00562E1B /* Build configuration list for PBXProject "luckeword" */ = {
+		BF91150825FE57CB00562E1B /* Build configuration list for PBXProject "luckeyword" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF91151F25FE57CD00562E1B /* Debug */,
@@ -339,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF91152125FE57CD00562E1B /* Build configuration list for PBXNativeTarget "luckeword" */ = {
+		BF91152125FE57CD00562E1B /* Build configuration list for PBXNativeTarget "luckeyword" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF91152225FE57CD00562E1B /* Debug */,
